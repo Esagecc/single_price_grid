@@ -27,6 +27,7 @@ body {
 .card-one {
     padding: 35px 25px;
 }
+
 .card-one {
     background-color: white;
     border-radius: 5px 5px 0 0;
@@ -124,12 +125,69 @@ li {
     line-height: 20px;
 }
 .attribution { 
+    position: relative;
+    bottom: 20px;
     font-size: 11px; 
     text-align: center; 
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:500px) {
+
+    .main {
+        margin: 140px auto;
+        width: 640px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-one {
+        border-radius: 5px 5px 0 0;
+        padding: 35px;
+    }
+
+    .card-one h1 {
+        font-size: 24px;
+    }
+
+    .card-one h2 {
+        font-size: 18px;
+    }
+
+    .card-one p {
+        font-size: 16px;
+    }
+
+    .part-two {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .card-two, .card-three {
+    padding: 40px 35px;
+    }
+
+    .card-two {
+        border-radius: 0 0 0 5px ;
+        width: 50%;
+    }
+
+    .card-two h1 {
+        font-size: 19px;
+    }
+    
+    .card-three {
+        border-radius: 0 0 5px 0;
+        width: 50%
+    }
+
+    .card-three h2 {
+        font-size: 19px;
+    }
 }
 
 
