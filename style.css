@@ -101,6 +101,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: hsl(71, 78%, 45%);
 }
 
 .card-three {
